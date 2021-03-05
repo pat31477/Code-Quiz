@@ -51,3 +51,46 @@ timer.addEventListener("click", function(){
     }, 1000);
     }
     startQuiz(currentQuestion);
+})
+function startQuiz(currentQuestion) {
+    questionEl.innerHtml = "";
+    quizUL.innerHTML = "";
+for (var i = 0; i < questions.length; i++) {
+    var userQuestion = questions[currentQuestion].title;
+    var userChoice = questions[currentQuestion].choices;
+    questionEl.textContent = userQuestion;
+}
+userChoice.forEach(function (newItem) {
+    var quizList = document.createElement("li");
+    quizList.textContent = newItem;
+    questionEl.appendChild(quizUL);
+    quizUL.appendChild(quizList);
+    quizList.addEventListener("click", (compare));
+})
+}
+function compare(event) {
+    var element = event.target;
+    
+if (element.matches("li")) {
+
+    var quizDiv = document.createElement("div");
+    quizDiv.setAttribute("id", quizDiv);
+if (element.textContent == questions[currentQuestion].answer) {
+    score++;
+questionEl.textContent = "correct! the answer is " + questions[currentQuestion].answer;
+} else {
+    timeLeft = timeLeft - penalty;
+    questionEl.textContent = "incorrect! the answer is " + questions[currentQuestion].answer;
+} 
+currentQuestion++;
+
+if (currentQuestion <= questions.length) {
+    // All done will append last page with user stats
+    allDone();
+    createDiv.textContent = "End of quiz!" + " " + "You got  " + score + "/" + questions.length + " Correct!";
+} else {
+    render(currentQuestion);
+}
+questionsDiv.appendChild(createDiv);
+}
+}
