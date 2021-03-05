@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Code Quiz Challenge!</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
-    </head>
-    <body>
-        <div id="container">
-            <div id="current-time"></div>
-            <div id="questions-div">
-                <h1>Coding Quiz Challenge</h1>
-                <p> Try to answer the follwing questions</p>
-                <ul id="choices"></ul>
-                <button id="start">Start the Quiz</button>
-            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- This is the first step in making the document responsive but scaling the items to screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the style links -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+
+    <!-- This is the title-->
+    <title>Code Quiz!</title>
+</head>
+
+<body>
+    <!-- Link to highscores -->
+    <a href="highscores.html"><strong>View Highscores</strong></a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+        <!-- Div for timer -->
+        <div id="currentTime"></div>
+        <!-- Div for quiz content -->
+        <div id="questionsDiv">
+            <h1>Code Quiz!</h1>
+            <p>Answer the code-related questions within the time limit. 
+                Keep in mind that incorrect answers
+                will penalize your score/time by ten seconds!</p>
+            <ul id="choicesUl"></ul>
+            <!-- Buttons -->
+            <button id="startTime">Start Quiz!</button>
         </div>
-        </section>
-        <!--<section id="container">
-            <button id="high-btn" id="highscores">View Highscores: </button>
-            <div id="timer">Time: </div>
-        </section>
-        <section id="quiz-container">
-            <h2 id="quiz-title">Coding Quiz Challenge!</h2>
-            <p id="quiz-text">Test your Javascript knowledge by taking the Coding Quiz! The quiz is timed and your goal is to answer as many questions correctly.</p>
-            <p>If you get a question wrong time is taken away. Once you compelte the quiz your score will be logged in the highscores!</p>
-            <button id="start-btn">Click to start the Quiz</button>
-            <div id="quiz"></div>
-            <button id="submit">Submit Quiz</button>
-            <div id="results"></div>-->
-        </section>
-    </body>
+
+    </div>
+
+
     <script src="Assets/JS/scripts.js"></script>
-    <script src="Assets/JS/highscores.js"></script>
+
+
+</body>
+
 </html>
