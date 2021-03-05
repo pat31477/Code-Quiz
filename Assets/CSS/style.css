@@ -8,11 +8,11 @@
     background-color: rgb(217, 241, 246);
 }
 #startTime {
-    background-color: rgb(64, 153, 212);
+    background-color: rgb(29, 163, 204);
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
-    color: rgb(114, 240, 83);
+    color: rgb(10, 10, 10);
 }
 #questionsDiv {
     margin: 20px;
@@ -25,11 +25,11 @@
 }
 
 #goBack {
-    background-color: rgb(64, 153, 212);
+    background-color: rgb(29, 163, 204);
     position: relative;
     padding: 5px;
     font-size: 20px;
-    color: white;
+    color: rgb(10, 10, 10);
     top: 30%;
     left: 55%;
     width: auto;
@@ -38,11 +38,11 @@
 }
 
 #clear {
-    background-color: rgb(64, 153, 212);
+    background-color: rgb(29, 163, 204);
     position: relative;
     padding: 5px;
     font-size: 20px;
-    color: white;
+    color: rgb(10, 10, 10);
     top: 30%;
     right: 5%;
     text-align: center;
@@ -50,9 +50,9 @@
 
 button {
     border: none;
-    background: radial-gradient(circle, rgb(46, 14, 134) 0%, rgba(11, 92, 168, 0.954) 100%);
+    background: radial-gradient(circle, rgb(16, 97, 122) 0%, rgba(92, 246, 251, 0.954) 100%);
     background-color: #0f8aaf;
-    color: rgb(15, 14, 14);
+    color: rgb(217, 241, 246);
     border-radius: 5px;
     padding: 10px 16px 10px 16px;
     font-size: 17px;
@@ -63,7 +63,7 @@ button {
 
 button:hover {
     transition-duration: 0.4s;
-    background: radial-gradient(circle, rgb(15, 131, 5) 0%, rgb(65, 206, 9) 100%);
+    background: radial-gradient(circle, rgb(32, 230, 14) 0%, rgb(78, 180, 38) 100%);
 }
 
 textarea {
@@ -72,7 +72,7 @@ textarea {
 }
 
 #Submit {
-    background: rgba(43, 142, 235, 0.954) 100%);
+    background: rgb(43, 142, 235, 0.954) 100%);
     background-color: #0f8aaf;
     color: white;
     margin-left: 33%;
@@ -87,7 +87,7 @@ label {
 }
 input {
     margin-bottom: 20px;
-    width: 50%;
+    width: 35%;
     border: 5px solid #0f8aaf;
 }
 
@@ -97,17 +97,17 @@ h1 {
 }
 
 li {
-    background: radial-gradient(circle, rgb(46, 14, 134) 0%, rgba(11, 92, 168, 0.954) 100%);
+    background: radial-gradient(circle, rgb(16, 97, 122) 0%, rgba(92, 246, 251, 0.954) 100%);
     margin-top: 10px;
     padding: 5px 15px;
     width: 80%;
     font-size: 18px;
-    color: white;
+    color: rgb(10, 10, 10);
 }
 
 li:hover {
     transition-duration: 0.4s;
-    background: radial-gradient(circle, rgb(15, 131, 5) 0%, rgb(65, 206, 9) 100%);
+    background: radial-gradient(circle, rgb(32, 230, 14) 0%, rgb(78, 180, 38) 100%);
 }
 
 #createDiv {
