@@ -24,6 +24,17 @@ var questions = [
         choices: ["Javascript", "terminal / bash", "for loops", "console log"],
         answer: "console log"
     },
+    {
+        title: "The logical operator that represents 'or' is ____.",
+        choices: ["||", "OR", "&&", "==="],
+        answer: "||"
+    },
+    {
+        title: "Which of the following function of String object combines the text of two strings and returns a new string?",
+        choices: ["add( )", "concat( )", " merge( )", "append( )"],
+        answer: "concat( )"
+    },
+    
 
 ];
 // Declared variables
@@ -38,7 +49,7 @@ var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
 // Seconds left is 15 seconds per question:
-var secondsLeft = 76;
+var secondsLeft = 75;
 // Holds interval time
 var holdInterval = 0;
 // Holds penalty time
@@ -192,7 +203,7 @@ function allDone() {
             allScores.push(finalScore);
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
-            // Travels to final page
+        
             window.location.replace("./HighScores.html");
         }
     });
