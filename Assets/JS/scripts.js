@@ -203,10 +203,11 @@ function allDone() {
             allScores.push(finalScore);
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
-        
-            window.location.href ="HighScores.html";
+            // Travels to final page
+            window.location.replace("./highscores.html");
         }
     });
 
 }
+
 
