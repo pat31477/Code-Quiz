@@ -68,7 +68,7 @@ timer.addEventListener("click", function () {
             if (secondsLeft <= 0) {
                 clearInterval(holdInterval);
                 allDone();
-                currentTime.textContent = "Looks Like your time is up!";
+                currentTime.textContent = "Time is up!";
             }
         }, 1000);
     }

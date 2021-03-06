@@ -67,12 +67,12 @@ Questions:
 
 Submit:
 
-![submit-button](./Assets/Images/Submit.PNG?raw=true "Submit Button")
+![submit-button](./Assets/Images/Submit.png?raw=true "Submit Button")
 
 
 High Score:
 
-![high-score](./Assets/Images/Submit.PNG?raw=true "High Score")
+![high-score](./Assets/Images/highscores.png?raw=true "High Score")
 
 
 <a name="contributions"></a>
