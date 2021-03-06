@@ -27,8 +27,8 @@
 }
 #startTime {
     background-color: rgb(29, 163, 204);
-    margin-left: 8%;
-    padding: 15px 32px;
+    margin-left: 3%;
+    padding: 10px 49px;
     font-size: 20px;
     color: rgb(10, 10, 10);
     font-family: 'Roboto Slab', arial;
@@ -95,11 +95,10 @@ textarea {
 }
 
 #Submit {
-    background: rgb(43, 142, 235, 0.954) 100%);
-    background-color: rgb(#0f8aaf);
+    background-color: rgb(29, 163, 204);
     color: rgb(10, 10, 10);
-    margin-left: 33%;
-    padding: 15px 32px;
+    margin-left: 38%;
+    padding: 7px 53px;
     font-size: 20px;
     font-family: 'Roboto Slab', arial;
 
