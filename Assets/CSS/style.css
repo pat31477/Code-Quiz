@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px 20px 25px 29px;
   }
 
 #wrapper {
@@ -26,7 +27,7 @@
 }
 #startTime {
     background-color: rgb(29, 163, 204);
-    margin-left: 33%;
+    margin-left: 8%;
     padding: 15px 32px;
     font-size: 20px;
     color: rgb(10, 10, 10);
@@ -76,7 +77,7 @@ button {
     color: rgb(10, 10, 10);
     border-radius: 5px;
     padding: 10px 16px 10px 16px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Roboto Slab', arial;
     margin: 4px;
@@ -96,7 +97,7 @@ textarea {
 #Submit {
     background: rgb(43, 142, 235, 0.954) 100%);
     background-color: rgb(#0f8aaf);
-    color: white;
+    color: rgb(10, 10, 10);
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
